@@ -4,3 +4,5 @@
         - I think `-f` means "file" (maybe)
     -  minikube kubectl -- get pods
     -  minikube kubectl -- logs [Pod Name]
+  - Expectable output:
+    - `minikube kubectl -- logs -> show 'Hello'`
