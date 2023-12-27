@@ -1,0 +1,7 @@
+FROM #developetool
+
+RUN #create a workfolder by workspace.
+WORKDIR #set work fodler
+COPY #copy project file to work folder.
+RUN #command
+EXPOSE #PORT
