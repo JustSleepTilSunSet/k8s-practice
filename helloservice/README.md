@@ -17,3 +17,5 @@
     - minikube kubectl -- apply -f [*podyaml]
         - f for `file`.
     - minikube kubectl -- logs [*podname]
+    - kubectl port-forward --address [binding ip] pod/[pod name] [inner port]:[exposed port]
+    4. type virtual machine ip and port on browser.
